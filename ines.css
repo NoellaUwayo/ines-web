@@ -281,9 +281,10 @@ background-color: #8ba0972c;
    border-radius: 7px 7px 7px 7px 7px;
 }
 .apply{
-   background: rgba(78,79,104,0.90);
+   background: rgba(78,79,104,0.990);
    margin-top: 200px;
    height: 400px;
+   background-image: url("back.PNG");
 }
 .container{
    background-color: #22286f;
@@ -318,18 +319,55 @@ background-color: #8ba0972c;
    text-decoration: none;
 }
 .about{
-   background-color: #6f2222;
-   color: white;
+   
+   color: #424242;
+   display: grid;
+grid-template-rows:repeat(2,1fr);
+height: 400px;
+width: 1500px;
+   
   
 }
 .learner img{
-   height: 500px;
+   height: 100px;
+   margin-bottom: 200px;
+   
+   
+   
 }
 .oli{
-   text-align: right;
-   padding-right: 400px;
-   padding-bottom: 900px;
+    padding-left: 20px;
+   margin-top: -328px;
+   background-color: #e9ebec;
+   margin-left: 220px;
+   height: 330px;
+   width: 900px;
+   
 }
+.about h2{
+   background-color: white;
+   color: #222845;
+   font-size: 38px;
+}
+.about h1{
+   color: #6d7f87;
+}
+.contact{
+   background-color: #f7f7f7;
+   margin-top: 40px;
+   color: rgba(0, 0, 0, 0.753);
+   display: grid;
+   grid-template-rows:repeat(3,1fr);
+   height: 500px;
+   width: 1150px;
+   padding-top: 100px;
+}
+.contact h2{
+   text-align: center;
+}
+
+  
+
 
 
 
