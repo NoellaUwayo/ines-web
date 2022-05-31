@@ -8,6 +8,7 @@
    width: 1800px;
    
    height: 5800px;
+   padding: 50px;
 }
 .one{
    background-color: #003c5a;
@@ -62,11 +63,12 @@ text-align:center;
    
 }
 .four{
-   background-color: yellow;
+   background-color: white;
    margin-top: 40px;
    width: 1800px;
    display: grid;
    grid-template-columns: repeat(2,1fr);
+   grid-gap: none;
 }
 .parta{
    border: 1px solid #dff8df;
@@ -154,7 +156,7 @@ padding-top: 25px;
    background-color: #e9cb46;
 }
 .six{
-   background-color: #53b2dd;
+   background-color: white;
    /* display:grid;
    grid-template-rows: repeat(8,1fr);
    grid-template-columns: repeat(2,1fr); */
@@ -219,7 +221,7 @@ padding-top: 25px;
    color: white;
 }
 .kwi{
-   background-color: #e9cb46;
+   background-color: white;
    float: right;
    height: 700px;
     width: 600px;
@@ -289,8 +291,8 @@ background-color: #8ba0972c;
    
 }
 .container{
-   background-color: #22286f;
-   color: white;
+   background-color: white;
+   color: rgba(0, 0, 0, 0.534);
    display: grid;
    grid-template-columns:repeat(4,1fr);
    padding: 100px;
@@ -305,7 +307,7 @@ background-color: #8ba0972c;
    font-size:30px ;
 }
 .seven{
-   background-color: #6f2222;
+   background-color: white;
    color: white;
    display: grid;
    grid-template-columns:repeat(4,1fr);
