@@ -36,7 +36,7 @@
    background-color: #fff;
    display:grid;
    grid-template-columns:repeat(8,1fr) ;
-   height: 60px;
+   height: 50px;
    width: 1800px;
    margin-left: 200px;
    
@@ -289,6 +289,10 @@ background-color: #8ba0972c;
    background-image: url("back.PNG");
    background-repeat: no-repeat;
    
+   
+}
+.apply img{
+   position: fixed;
 }
 .container{
    background-color: white;
